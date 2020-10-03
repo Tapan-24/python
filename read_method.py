@@ -1,0 +1,6 @@
+fp=open("D:/un_sorted/tapan.txt")
+data=fp.read()
+fp.close()
+print(repr(data))
+data=data.split('\n')
+print(data)
